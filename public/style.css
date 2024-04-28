@@ -1,0 +1,109 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb; /* Pink */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="url"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da; /* Light gray */
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  #postsContainer {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .post {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da; /* Light gray */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-section {
+    margin-top: 10px;
+  }
+  
+  .comment-input {
+    width: calc(100% - 70px);
+    padding: 8px;
+    border: 1px solid #ced4da; /* Light gray */
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+  }
+  
+  .comment-input:focus {
+    outline: none;
+    border-color: #007bff; /* Blue */
+  }
+  
+  .comment-button {
+    width: 70px;
+    padding: 8px;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .comment-button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .comment {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Light gray */
+    border-radius: 4px;
+  }
+  
